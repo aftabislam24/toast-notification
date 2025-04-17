@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.buttons{
+    position: absolute;
+    width: 50%;
+    height: 100vh;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 10px ;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #dadada;
+    color: #000;
+}
+.output{
+    height: 100vh;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+.display{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: column;
+    padding: 0 50px 50px 0;
+    gap: 20px;
+}
+.success-toast{
+    height: 50px;
+    width: 500px;
+    background-color: #fff;
+    color: green;
+    border: 1px solid green;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px green 0.3;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+.error-toast{
+    height: 50px;
+    width: 500px;
+    background-color: #fff;
+    color:red ;
+    border: 1px solid red;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px red 0.3;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.invalid-toast{
+    height: 50px;
+    width: 500px;
+    background-color: #fff;
+    color: orange;
+    border: 1px solid orange;
+    outline: 0;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px orange 0.3;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+
+}
